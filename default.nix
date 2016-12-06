@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "env";
   buildInputs = [
-    dbus
+    systemd
     lxc
     autoconf
     automake

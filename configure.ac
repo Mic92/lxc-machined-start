@@ -20,7 +20,7 @@ AX_CHECK_COMPILE_FLAG([-std=c11],
 
 m4_pattern_forbid([^_?PKG_[A-Z_]+$],[*** pkg.m4 missing, please install pkg-config])
 
-PKG_CHECK_MODULES(DBUS, [dbus-1 >= 1.3.2])
+PKG_CHECK_MODULES([LIBSYSTEMD], [libsystemd >= 209])
 PKG_CHECK_MODULES(LXC, [lxc >= 1.0.0])
 
 AC_OUTPUT
