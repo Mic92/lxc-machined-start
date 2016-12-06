@@ -7,3 +7,5 @@
 
 static inline void freep(void *p) { free(*(void **)p); }
 static inline void closep(int *fd) { if (*fd >= 0) close(*fd); }
+
+void remove_trailing_slashes(char *p);

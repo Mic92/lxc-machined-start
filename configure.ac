@@ -1,6 +1,6 @@
 AC_PREREQ([2.64])
 AC_INIT([lxc-machined-start],
-        [0.1],
+        [1],
         [http://github.com/Mic92/lxc-machined-start/issues],
         [lxc-machined-start],
         [http://github.com/Mic92/lxc-machined-start])
